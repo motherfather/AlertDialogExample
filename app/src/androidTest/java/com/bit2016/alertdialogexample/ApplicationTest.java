@@ -1,4 +1,4 @@
-package com.estsoft.alertdialogexample;
+package com.bit2016.alertdialogexample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

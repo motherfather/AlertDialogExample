@@ -1,4 +1,4 @@
-package com.estsoft.alertdialogexample;
+package com.bit2016.alertdialogexample;
 
 import org.junit.Test;
 

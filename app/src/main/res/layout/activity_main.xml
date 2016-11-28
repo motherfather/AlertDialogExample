@@ -60,4 +60,11 @@
         android:text="Custom Content Layout Dialog"
         android:onClick="dialogCustomLayout"/>
 
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/customLayoutDialo2"
+        android:text="Custom Content Layout Dialog2"
+        android:onClick="dialogCustomLayout2"/>
+
 </LinearLayout>
