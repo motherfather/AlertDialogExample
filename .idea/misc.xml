@@ -35,14 +35,9 @@
             <id />
           </State>
           <State>
-            <id>Spelling</id>
+            <id>Android &gt; Lint &gt; Security</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Java</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -61,5 +56,8 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\LEE SANG WOOK\AppData\Roaming\Subversion</configuration>
   </component>
 </project>

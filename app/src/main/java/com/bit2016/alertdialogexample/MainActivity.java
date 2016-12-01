@@ -142,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dialogCustomLayout( View view ) {
-        LayoutInflater inflater = getLayoutInflater(); // 레이아웃을 가져와서 수정후 다시 보낸다
+        LayoutInflater inflater = getLayoutInflater(); // inflater는 xml파일을 통해 객체를 생성 하는 방식으로 setContentView와 같은 방식이다!!
+                                                       // 참고 http://blog.naver.com/PostView.nhn?blogId=ogh2003&logNo=120185734164
         final View customView = inflater.inflate(R.layout.dialog_custom, null); // 내부의 지역변수로 보낼 때는 수정이 되지 않도록 하기 위해서 final을 달아야 한다
         new AlertDialog.Builder(this)
                 .setTitle("Custom Layout")
@@ -158,8 +159,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dialogCustomLayout2( View view ) {
-        // 다이얼로그 내부 레이아웃 인플레이션
-        LayoutInflater inflater = getLayoutInflater(); // 레이아웃을 가져와서 수정후 다시 보낸다
+        // 다이얼로그 내부 레이아웃 인플레이터
+        LayoutInflater inflater = getLayoutInflater();
         final View customView = inflater.inflate(R.layout.dialog_custom, null); // 내부의 지역변수로 보낼 때는 수정이 되지 않도록 하기 위해서 final을 달아야 한다
 
         // 화면에 다이얼로그 표시
